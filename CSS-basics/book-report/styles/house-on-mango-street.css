@@ -1,0 +1,42 @@
+
+body {
+    background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+
+}
+
+#wrapper {
+    width:600px;
+    margin:auto; /* Centers the div on the page */
+    border:1px solid tan;
+    padding:25px;
+}
+
+h1 {
+    color:#182ca0;
+    font-family:arial;
+}
+
+h2 {
+    color:#586bd6;
+    font-family:arial;
+    text-transform:uppercase;
+}
+
+p {
+    font-size:1.0;
+    line-height:1.5;
+    font-family:georgia;
+}
+
+ul {
+    font-family:georgia;
+}
+
+.primary {
+    font-weight:bold;
+}
+
+#purpleBorder {
+    border:3px solid purple;
+    padding:5px;
+}
