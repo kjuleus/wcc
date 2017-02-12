@@ -1,0 +1,86 @@
+body {
+    background-image:url(http://practice-pixels.s3.amazonaws.com/texture-blue.jpg);
+    font-size: 62.5%; /* Will make the default browser size 10px */
+}
+
+#wrapper {
+    width:800px;
+    margin:auto; /* Centers the div on the page */
+    margin-top:75px;
+    margin-bottom:75px;
+    border:1px;
+    border-radius:5px;
+    padding:25px 25px .1px 25px;
+    background-color: white;
+}
+
+h1 {
+    font-family:helvetica;
+    color:#D42A1D; /* Rust Orange */
+    font-size:2.0rem;
+    line-height:.1;
+}
+
+h2 {
+    font-family:helvetica;
+    color:#000000; /* Black */
+    font-size:1.2rem;
+    line-height:1;
+}
+
+#headerAlignment {
+    text-align:center;
+}
+
+h3 {
+    font-family:helvetica;
+    color:#000000; /* Black */
+    font-size:1.3rem;
+    line-height:.01;
+}
+
+h4 {
+    font-family:helvetica;
+    color:#000000; /* Black */
+    font-size:1.1rem;
+    line-height:.1;
+    font-style:italic;
+}
+
+section > p {
+    font-family:georgia;
+    color:#000000; /* Black */
+    font-size:1rem;
+    line-height:1.5;
+}
+
+.Book {
+    width:750px;
+    margin:auto; /* Centers the div on the page */
+    margin-top:20px;
+    border:1px;
+    padding:10px;
+    padding-top:1px;
+    background-color: #EEEEEE; /* Light grey */
+}
+
+.bookLinks {
+    color:#D42A1D; /* Rust Orange */
+    font-family:helvetica;
+    font-size:1rem;
+    line-height:1.5;
+}
+
+.bookLinks:hover {
+    color:#185A96; /* Denim Blue */
+}
+
+#footerFormat {
+    font-family:helvetica;
+    color:#000000; /* Black */
+    font-size:1rem;
+    line-height:.5;
+    text-align:center;
+    margin-top:25px;
+    margin-bottom:1px;
+}
